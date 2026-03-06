@@ -22,3 +22,5 @@ print(e)
 
 #Typecasting
 
+f = "5"
+print(int(f) + 1) #6
