@@ -19,3 +19,6 @@ print(d) #Ayush
 
 e = None
 print(e)
+
+#Typecasting
+
