@@ -35,6 +35,15 @@ print(a) #1.0
 #Comparison Operators
 x = 8
 y = 3
-print(a) #4
+z = 8
+print(x > y) #True
+print(x < y) #False
+print(x != y) #True
+print(x == z) #True
+
+#Logical Operators
+print(x > y and x == z) #True
+print(x > y or x > z) #True
+print(not(x > y)) #False
 
 
