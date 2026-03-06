@@ -32,4 +32,9 @@ print(a) #1.0
 a **= 4
 print(a) #1.0
 
+#Comparison Operators
+x = 8
+y = 3
+print(a) #4
+
 
