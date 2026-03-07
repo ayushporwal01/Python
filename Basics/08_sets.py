@@ -14,6 +14,7 @@ a2 = {3, 5, 23}
 
 #a1.add(7)                    #adds given ele in a random place if it's not already present
  
-a3 = a1.copy()                #creates a shallow copy
+#a3 = a1.copy()     
+         
 print(a3)                 
 
