@@ -5,6 +5,7 @@ a2 = {3, 5, 23}
 
 #a1.clear() #set()
 #a1.pop() #removes random element
-# a1.remove(43) #error raised when given element not found
+#a1.remove(43) #error raised when given element not found
 #a1.discard(45) #no error raised
+a1.discard(45)
 print(a1)
