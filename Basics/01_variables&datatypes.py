@@ -1,4 +1,5 @@
 #A variable is name of a memory location used to store some data.
+#A data type defines the type of data a variable holds.
 
 print("Hello")
 
