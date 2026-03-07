@@ -18,7 +18,7 @@ l1.append(10)
 print(l1) #1 2 3 3 4 10
 
 l1.extend([100, 69, 11, "Vaibhav"])
-print(l1) #100 69 11 "Vaibhav"
+print(l1) #1 2 3 3 4 10 100 69 11 'Vaibhav'
 
 l1.clear()
 print(l1) #[]
