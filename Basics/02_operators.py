@@ -1,3 +1,5 @@
+#Operators are special symbols used to perform operations on variables and values to manipulate data.
+
 num1 = 10
 num2 = 2
 
