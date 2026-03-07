@@ -1,4 +1,7 @@
-#list is mutable
+#A list is an ordered collection of items.
+#Mutable
+#Can store mixed types of values
+
 
 l1 = [1, 4, 3, 3, "Ayush", 2, 5]
 
