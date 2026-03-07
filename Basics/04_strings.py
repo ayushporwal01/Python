@@ -20,4 +20,4 @@ print(name.removeprefix("Ayu")) #sh
 print(name.removesuffix("sh")) #Ayu
 print(name.replace("s", "")) #Ayuh
 print(name.replace("s", "")) #Ayuh
-print(name2.strip("sh")) #Aayuu
+print(name2.strip("sh")) #Ayu
