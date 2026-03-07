@@ -1,4 +1,4 @@
-import pandas
+import pandas as pd
 
-df = pandas.read_csv("products-100.csv")
+df = pd.read_csv("products-100.csv")
 print(df)
