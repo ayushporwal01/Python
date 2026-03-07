@@ -1,1 +1,3 @@
+#stores unique elements
+
 a = {3, 5, 23, 45, 69, 78}
