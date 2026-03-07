@@ -9,7 +9,7 @@ a2 = {3, 5, 23}
 #a1.discard(45)               #no error raised
 
 #res = a1.difference(a2)      #intersection
-a1.add(7)                     #adds given ele on a random place if it's not present already  
+a1.add(7)                     #adds given ele in a random place if it's not already present
 print(a1)      
 
 
