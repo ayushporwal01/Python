@@ -9,8 +9,10 @@ a2 = {3, 5, 23}
 #a1.discard(45)               #no error raised
 
 #res = a1.difference(a2)      #intersection
-#a1.add(7)                     #adds given ele in a random place if it's not already present
 
-print(a1)      
+#a1.add(7)                    #adds given ele in a random place if it's not already present
+ 
+a3 = a1.copy()                #create a shallow copy
+print(a3)                     #3 69 5 23 45 78
 
 
