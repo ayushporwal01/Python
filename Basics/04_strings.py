@@ -15,3 +15,4 @@ print(number.isalpha()) #False
 print(number.isnumeric()) #True
 print(number.isdigit()) #True
 print(name.join(["", number])) #Ayush7
+print(name.removeprefix("Ayu")) #sh
