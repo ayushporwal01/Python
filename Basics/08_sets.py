@@ -23,4 +23,3 @@ a2 = {3, 5, 23, 7, 100}
 a1.update(a2);                #copies all elements of a2 in a1 
 print(a1);                    #a1 + a2
 print(a2);                    #remains same
-
