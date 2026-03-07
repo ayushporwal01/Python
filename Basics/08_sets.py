@@ -22,5 +22,5 @@ a2 = {3, 5, 23, 7, 100}
 #a5 = a1.intersection(a2)
 #print(a5);                      #a1 + a2
           
-# a1.update(a2);                #copies all elements of a2 in a1 
-# print(a2);                    #remains same
+#a1.update(a2);                #copies all elements of a2 in a1 
+#print(a2);                    #remains same
