@@ -3,7 +3,7 @@
 #mutable
 
 a1 = {3, 5, 23, 45, 69, 78}
-a2 = {3, 5, 23}
+a2 = {3, 5, 2, 7}
 
 #a1.clear()                   #set()
 #a1.pop()                     #removes random element
@@ -16,6 +16,6 @@ a2 = {3, 5, 23}
  
 #a3 = a1.copy()     
 
-a4 = a1.union(a2);    
+a4 = a1.union(a2);            
 print(a4)                 
 
