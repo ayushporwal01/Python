@@ -1,5 +1,5 @@
 name = 'Ayush'
-name2 = 'Aayush'
+name2 = 'Ayushsh'
 number = "7"
 
 print(name)
@@ -20,3 +20,4 @@ print(name.removeprefix("Ayu")) #sh
 print(name.removesuffix("sh")) #Ayu
 print(name.replace("s", "")) #Ayuh
 print(name.replace("s", "")) #Ayuh
+print(name2.strip("sh")) #Aayuu
