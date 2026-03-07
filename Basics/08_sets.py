@@ -9,7 +9,7 @@ a2 = {3, 5, 23, 7, 100}
 #a1.remove(43)                #error raised when given element not found
 #a1.discard(45)               #no error raised
 
-#res = a1.difference(a2)      #intersection
+#res = a1.difference(a2)      #elements that are present in first set but not in the second set.
 
 #a1.add(7)                    #adds given ele in a random place if it's not already present
  
