@@ -3,7 +3,7 @@
 #mutable
 
 a1 = {3, 5, 23, 45, 69, 78}
-a2 = {3, 5, 2, 7}
+a2 = {3, 5, 7}
 
 #a1.clear()                   #set()
 #a1.pop()                     #removes random element
@@ -17,5 +17,5 @@ a2 = {3, 5, 2, 7}
 #a3 = a1.copy()     
 #a4 = a1.union(a2);            
 
-print(a1.issubset(a2));                 
+print(a2.issubset(a1));                 
 
