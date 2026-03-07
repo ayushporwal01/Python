@@ -1,8 +1,8 @@
-name = input("Enter your name: ")
-print(name)
+# name = input("Enter your name: ")
+# print(name)
 
-num = int(input("Enter a number: "))
-print(num + 6)
+# num = int(input("Enter a number: "))
+# print(num + 6)
 
 #case-sensitive
 Ayush = 3  
@@ -17,4 +17,4 @@ a = '''Ayush''' #''' act as a comment when not assigned to a variable
 a1 = "Ayush"
 b1 = "Vaibhav"
 c1 = "Aryan"
-print(a1, b1, c1)
+print(a1, b1, c1) #Ayush Vaibhav Aryan
