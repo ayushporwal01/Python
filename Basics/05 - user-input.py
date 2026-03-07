@@ -2,4 +2,4 @@
 # print(name)
 
 num = input("Enter a number: ")
-print(num + 6)
+print(int(num) + 6)
