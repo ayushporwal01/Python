@@ -17,8 +17,7 @@ print(l1) #1 2 3 3 4
 l1.append(10)
 print(l1) #1 2 3 3 4 10
 
-l1.index(3)
-print(l1) #2
+print(l1.index(3))
 
 l1.extend([100, 69, 11, "Vaibhav"])
 print(l1) #1 2 3 3 4 10 100 69 11 'Vaibhav'
