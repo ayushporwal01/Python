@@ -1,8 +1,8 @@
-# name = input("Enter your name: ")
-# print(name)
+name = input("Enter your name: ")
+print(name)
 
-# num = int(input("Enter a number: "))
-# print(num + 6)
+num = int(input("Enter a number: "))
+print(num + 6)
 
 #case-sensitive
 Ayush = 3  
