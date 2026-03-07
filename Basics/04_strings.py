@@ -1,4 +1,5 @@
 name = 'Ayush'
+name2 = 'Aayush'
 number = "7"
 
 print(name)
@@ -16,3 +17,6 @@ print(number.isnumeric()) #True
 print(number.isdigit()) #True
 print(name.join(["", number])) #Ayush7
 print(name.removeprefix("Ayu")) #sh
+print(name.removesuffix("sh")) #Ayu
+print(name.replace("s", "")) #Ayuh
+print(name.replace("s", "")) #Ayuh
