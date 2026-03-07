@@ -3,6 +3,8 @@ l1 = [1, 4, 3, 3, "Ayush", 2, 5]
 print(type(l1)) #<class 'list'>
 print(l1) #1 4 3 3 'Ayush' 2 5 
 
+print(l1[1:4]) #4 3 3
+
 l1.remove("Ayush")
 print(l1) #1 4 3 3 2 5
 
