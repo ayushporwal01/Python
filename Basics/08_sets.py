@@ -19,5 +19,5 @@ a2 = {3, 5, 23}
 
 #print(a2.issubset(a1));                 
 #print(a1.issuperset(a2));                 
-print(a1.update(a2));         #copies all elements of a1 in a2          
+print(a1.update(a2));          #copies all elements of a1 in a2          
 
