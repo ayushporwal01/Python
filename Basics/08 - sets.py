@@ -8,5 +8,8 @@ a2 = {3, 5, 23}
 #a1.remove(43)                #error raised when given element not found
 #a1.discard(45)               #no error raised
 
-res = a1.difference(a2)       #intersection
-print(res)                    
+#res = a1.difference(a2)      #intersection
+a1.add(7)                     #adds given ele on a random place if it's not present already  
+print(a1)      
+
+
