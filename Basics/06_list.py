@@ -2,7 +2,6 @@
 #Mutable
 #Can store mixed types of values
 
-
 l1 = [1, 4, 3, 3, "Ayush", 2, 5]
 
 print(type(l1)) #<class 'list'>
