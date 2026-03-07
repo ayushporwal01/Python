@@ -1,3 +1,5 @@
+#string is immutable
+
 name = 'Ayush'
 name2 = 'Ayushsh'
 number = "7"
