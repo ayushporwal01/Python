@@ -17,5 +17,6 @@ a2 = {3, 5, 23}
 #a3 = a1.copy()     
 #a4 = a1.union(a2);            
 
-print(a2.issubset(a1));                 
+#print(a2.issubset(a1));                 
+#print(a1.issuperset(a2));                 
 
