@@ -25,7 +25,8 @@ print(name2.strip("sh")) #Ayu
 #valid string
 a = "Ayush"
 a = 'Ayush'
-a = '''Ayush''' #''' act as a comment when not assigned to a variable
+a = '''Ayush
+Porwal''' #''' act as a comment when not assigned to a variable and can be used for multiline string
 
 #print multiple variables
 a1 = "Ayush"
