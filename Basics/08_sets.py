@@ -19,4 +19,5 @@ a2 = {3, 5, 23}
 
 #print(a2.issubset(a1));                 
 #print(a1.issuperset(a2));                 
+print(a1.issuperset(a2));                 
 
