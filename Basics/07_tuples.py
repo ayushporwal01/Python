@@ -1,4 +1,5 @@
-#tuples are immutable
+#tuples are also ordered collection of items.
+#but are immutable
 
 t = (3, 5, 23, 56, 69, 5)
 
