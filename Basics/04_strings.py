@@ -21,3 +21,14 @@ print(name.removesuffix("sh")) #Ayu
 print(name.replace("s", "")) #Ayuh
 print(name.replace("s", "")) #Ayuh
 print(name2.strip("sh")) #Ayu
+
+#valid string
+a = "Ayush"
+a = 'Ayush'
+a = '''Ayush''' #''' act as a comment when not assigned to a variable
+
+#print multiple variables
+a1 = "Ayush"
+b1 = "Vaibhav"
+c1 = "Aryan"
+print(a1, b1, c1) #Ayush Vaibhav Aryan
