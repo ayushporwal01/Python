@@ -17,6 +17,5 @@ a2 = {3, 5, 2, 7}
 #a3 = a1.copy()     
 #a4 = a1.union(a2);            
 
-a4 = a1.union(a2);            
-print(a4)                 
+print(a1.issubset(a2));                 
 
