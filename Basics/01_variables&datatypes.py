@@ -1,3 +1,5 @@
+#A variable is name of a memory location used to store some data.
+
 print("Hello")
 
 #Variables & Data Types
