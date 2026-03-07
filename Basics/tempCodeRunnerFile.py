@@ -1,2 +1,2 @@
-num = int(input("Enter a number: "))
-print(num + 6)
+l1.clear()
+print(l1) #1 2 3 3 4 10
