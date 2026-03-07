@@ -3,7 +3,7 @@
 #mutable
 
 a1 = {3, 5, 23, 45, 69, 78}
-a2 = {3, 5, 7}
+a2 = {3, 5}
 
 #a1.clear()                   #set()
 #a1.pop()                     #removes random element
