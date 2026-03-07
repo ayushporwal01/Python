@@ -1,5 +1,5 @@
-name = input("Enter your name: ")
-print(name)
+# name = input("Enter your name: ")
+# print(name)
 
-num = input((int)("Enter a number: "))
+num = input("Enter a number: ")
 print(num + 6)
