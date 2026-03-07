@@ -15,6 +15,7 @@ a2 = {3, 5, 2, 7}
 #a1.add(7)                    #adds given ele in a random place if it's not already present
  
 #a3 = a1.copy()     
+#a4 = a1.union(a2);            
 
 a4 = a1.union(a2);            
 print(a4)                 
