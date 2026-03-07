@@ -8,3 +8,5 @@ print(name.count("A")) #1
 print(name.endswith("h")) #True
 print(name.find("h")) #4
 print(name.center(15, "*")) #*****Ayush*****
+print(name.isalnum()) #True
+print(name.isalpha()) #True
