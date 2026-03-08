@@ -15,3 +15,4 @@ print(marks)
 print(marks.get("Ayush Porwal"))    #None
 print(marks.get("Ayush"))           #69
 print(marks.keys())   
+print(marks.items())   
