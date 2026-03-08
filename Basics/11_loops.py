@@ -1,14 +1,14 @@
 #for loop
 
-# num = int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 
-# for i in range(1, 11):
-#     print(num * i) 
+for i in range(1, 11):
+    print(num * i) 
 
-# a = [1, 34, 456, 34, 234]
+a = [1, 34, 456, 34, 234]
 
-# for item in a:
-#     print(item, end=", ")
+for item in a:
+    print(item, end=", ")
 
 #while loop
 
