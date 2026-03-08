@@ -21,3 +21,6 @@ match a:
         print("Case 1") 
     case 4:
         print("Case 4") 
+    case _:
+        print("Default Case") 
+        
