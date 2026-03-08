@@ -17,6 +17,5 @@ print(marks.get("Ayush"))           #69
 print(marks.keys())   
 print(marks.items())   
 
-marks.pop('Ayush')
-print(marks)   
-  
+marks.pop('Ayush')   
+print(marks)  
