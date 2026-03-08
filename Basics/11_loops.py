@@ -19,7 +19,7 @@
 
 while(True):
     x = int(input("enter a number: "))
-    if(x == 5):
+    if(x == 69):
         print("you won")
         break
     else:
