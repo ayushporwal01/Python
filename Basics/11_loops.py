@@ -20,6 +20,7 @@
 while(True):
     x = int(input("enter a number: "))
     if(x == 5):
+        print("you won")
         break
     else:
         print("Try again!")
