@@ -8,4 +8,4 @@ for i in range(1, 11):
 a = [1, 34, 456, 34, 234]
 
 for item in a:
-    print(item, end="")
+    print(item, end=", ")
