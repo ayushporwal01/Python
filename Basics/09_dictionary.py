@@ -5,4 +5,4 @@ dict1 = {}
 print(type(dict1))  #<class 'dict'>
 
 marks = {"Ayush": 69, "Rahul": 54, "Akshat": 74, "Vaibhav": 91}
-print(marks["Ayush"])
+print(marks["Ayush"])  #69
