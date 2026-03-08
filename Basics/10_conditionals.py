@@ -9,3 +9,15 @@ else:
 
 
 #Match Case
+
+a = 4
+
+match a:
+    case 1:
+        print("Case 1") 
+    case 2:
+        print("Case 1") 
+    case 3:
+        print("Case 1") 
+    case 4:
+        print("Case 4") 
