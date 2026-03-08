@@ -12,5 +12,5 @@ print(marks["Ayush"])
 marks["Aryan"] = 58
 print(marks)      
 
-print(marks.get("Ayush Porwal"))
-print(marks.get("Ayush"))
+print(marks.get("Ayush Porwal"))   #None
+print(marks.get("Ayush"))          #69
