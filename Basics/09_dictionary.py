@@ -23,5 +23,5 @@ print(marks)
 
 print(marks.popitem())              #Removes and returns last item as a tuple
 
-marks.update(marks2)
-print(marks)
+marks.update(marks2)                #Before: {'Rahul': 54, 'Akshat': 74, 'Vaibhav': 91}
+print(marks)                        #After: {'Rahul': 54, 'Akshat': 74, 'Vaibhav': 91}
