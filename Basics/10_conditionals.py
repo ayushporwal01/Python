@@ -22,5 +22,5 @@ match a:
     case 4:
         print("Case 4") 
     case _:
-        print("No Match Found")
+        print("No match found")
         
