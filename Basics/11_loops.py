@@ -18,7 +18,7 @@
 #     i += 1
 
 while(True):
-    x = int(input("enter a number between"))
+    x = int(input("enter a number: "))
     print("You entered: ", x)
     if(x == 5):
         break
