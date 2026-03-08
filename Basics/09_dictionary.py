@@ -22,6 +22,5 @@ marks.pop('Ayush')
 print(marks)  
 
 print(marks.popitem())              #Removes and returns last item as a tuple
-
-marks.update(marks2)
 print(marks)
+# marks.update(marks2)
