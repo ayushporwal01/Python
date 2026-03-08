@@ -26,8 +26,10 @@ i = 1
 #         print("Try again!")
 
 while i <= 10:
-    if(i == 5):
+    if i == 5:
+        i += 1
         continue
+
     print(i)
-    
     i += 1
+    
