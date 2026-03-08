@@ -24,3 +24,8 @@ while(True):
         break
     else:
         print("Try again!")
+
+while i <= 10:
+    if(i == 5):
+        continue
+    print(i)
