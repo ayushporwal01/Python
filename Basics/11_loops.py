@@ -9,3 +9,6 @@ a = [1, 34, 456, 34, 234]
 
 for item in a:
     print(item, end=", ")
+
+#while loop
+
