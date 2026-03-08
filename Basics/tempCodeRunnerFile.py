@@ -1,6 +1,4 @@
-age = int(input("Enter your age: "))
+num = int(input("Enter a number: "))
 
-# if(age >= 18):
-#     print("You are an adult")
-# else:
-#     print("You are a minor")
+# for i in range(1, 11):
+#     print(num * i) 
