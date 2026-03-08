@@ -30,3 +30,5 @@ while i <= 10:
         continue
     else:
         print(i)
+    
+    i += 1
