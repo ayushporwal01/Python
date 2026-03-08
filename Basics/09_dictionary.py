@@ -6,7 +6,7 @@ dict1 = {}
 print(type(dict1))                  #<class 'dict'>
 
 marks = {"Ayush": 69, "Rahul": 54, "Akshat": 74, "Vaibhav": 91}
-marks2 = {"Ayush": 99, "Akshat": 88}
+marks2 = {"Akshat": 88, "Rahul": 99}
 
 print(marks["Ayush"])
 
@@ -22,5 +22,6 @@ marks.pop('Ayush')
 print(marks)  
 
 print(marks.popitem())              #Removes and returns last item as a tuple
+
+marks.update(marks2)
 print(marks)
-# marks.update(marks2)
