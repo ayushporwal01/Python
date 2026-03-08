@@ -16,3 +16,7 @@ i = 1
 while i <= 10:
     print(i)
     i += 1
+
+while(True):
+    x = int(input("enter a number between 1 to 10"))
+    
