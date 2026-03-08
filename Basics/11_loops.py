@@ -19,6 +19,6 @@
 
 while(True):
     x = int(input("enter a number: "))
-    print("You entered: ", x)
+    print("Try again!")
     if(x == 5):
         break
