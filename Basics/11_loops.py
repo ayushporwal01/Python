@@ -10,6 +10,11 @@ a = [1, 34, 456, 34, 234]
 for item in a:
     print(item, end=", ")
 
+for i in range(1, 11):
+    if i == 5:
+        continue
+    print(i)
+
 # #while loop
 
 i = 1
@@ -32,4 +37,3 @@ while i <= 10:
 
     print(i)
     i += 1
-    
