@@ -19,3 +19,5 @@ print(marks.items())
 
 marks.pop('Ayush')   
 print(marks)  
+
+print(marks.popitem())              #Removes and returns last item
