@@ -10,4 +10,5 @@ try:
 except Exception as e:
     print("some error occured: ", e)
 else:
-    print()
+    print("no error occurred")
+    
