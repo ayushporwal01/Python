@@ -13,4 +13,9 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 # Save resized image
-cv2.imwrite("resized-cat.jpg", resized)
+saved = cv2.imwrite("D:Ayush\Python\Images\resized-cat.jpg", resized)
+
+if saved:
+    print("Image saved successfully")
+else:
+    print("Error saving image")
