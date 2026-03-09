@@ -3,6 +3,8 @@ import pyttsx3
 # Initialize the engine
 engine = pyttsx3.init()
 
+print("Welcome To RoboSpeaker!")
+
 # Text to speak
 text = input("Enter what you want me speak: ")
 
