@@ -11,3 +11,4 @@ class Employee:
     
 ayush = Employee()
 print(ayush.salary)
+print(ayush.name)
