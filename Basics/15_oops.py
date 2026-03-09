@@ -4,6 +4,7 @@
 #An object is an instance of a class.
 #Constructor is a special method that runs automatically when an object is created.
 #It's main job is to initialize object's data.
+#self keyword refer to the current object.
 
 class Employee:
     def __init__(self, name, salary):
