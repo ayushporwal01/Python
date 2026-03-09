@@ -12,10 +12,10 @@ s = "Ayush is a gamer"
 
 #Reading to a file
 
-with open("ayush.txt", "r") as f:
-    s = f.read()
-    print(s)
+# with open("ayush.txt", "r") as f:
+#     s = f.read()
+#     print(s)
 
-# f = open("ayush.txt", "r")
-# f.read(s)
-# f.close()
+f = open("ayush.txt", "r")
+f.read(s)
+f.close()
