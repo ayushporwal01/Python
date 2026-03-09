@@ -1,7 +1,7 @@
 import cv2
 
 #Read image
-img = cv2.imread("cat.jpg")
+img = cv2.imread("./Images/cat.jpg")
 
 #Resize image
 resized = cv2.resize(img, (420, 300))
@@ -11,3 +11,6 @@ cv2.imshow("Resized Image", resized)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+# Save resized image
+cv2.imwrite("resized.jpg", resized)
