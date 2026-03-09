@@ -4,8 +4,8 @@ def greetHello(name):
     print("Hello " + name)
 
 def letterGenerator(name, date):
-    st = f"Hi, this is {name} and i would like to invite you to my birthday on {date}."
+    st = f"Hi, this is {name}. I would like to invite you to my birthday on {date}."
     print(st)
 
 greetHello("Ayush") 
-letterGenerator("Ayush", "December 27th, 2026")
+letterGenerator("Ayush", "December 27, 2026")
