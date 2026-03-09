@@ -1,6 +1,6 @@
 s = "Ayush is a gamer"
 
-#write
+#Write
 
 # with open("ayush.txt", "w") as f:
 #     f.write(s)
