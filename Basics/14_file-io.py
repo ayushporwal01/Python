@@ -22,7 +22,7 @@ s = "Ayush is a gamer"
 # f.close()
 #
 #
-#Reading to a file
+#Appending to a file
 
 # with open("ayush.txt", "r") as f:
 #     s = f.read()
