@@ -1,7 +1,7 @@
 import cv2
 
-#load image
+#Read image
 img = cv2.imread("cat.jpg")
 
-#show image
-cv2.imshow("Image", img)
+#Resize image
+resized = cv2.resize(img, (420, 300))
