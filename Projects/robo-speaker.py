@@ -1,6 +1,5 @@
 from pyttsx3 import speak
 
-print("Welcome To RoboSpeaker!")
 speak("Welcome To RoboSpeaker!")
 
 while True:
