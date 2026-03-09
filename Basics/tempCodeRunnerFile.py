@@ -1,3 +1,2 @@
-f = open("ayush.txt", "r")
-f.read(s)
-f.close()
+sh.txt", "a") as f:
+    f.write(" and coder")
