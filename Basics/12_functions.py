@@ -1,4 +1,5 @@
 #A function is a reusable block of code used to perform specific task.
+#fstrings lets you use variables inside strings.
 
 def greetHello(name):
     print("Hello " + name)
