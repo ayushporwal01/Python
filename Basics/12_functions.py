@@ -13,3 +13,4 @@ def average(a, b):
 
 greetHello("Ayush") 
 letterGenerator("Ayush", "December 27, 2026")
+average(56, 69)
