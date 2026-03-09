@@ -11,6 +11,6 @@ class Employee:
     def getSalary(self):
         return self.salary
     
-ayush = Employee()
+ayush = Employee("Ayush", 10000000)
 print(ayush.salary)
 print(ayush.name)
