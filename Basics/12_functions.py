@@ -11,6 +11,5 @@ def letterGenerator(name, date):
 def average(a, b):
     return (a + b)/2
 
-
 greetHello("Ayush") 
 letterGenerator("Ayush", "December 27, 2026")
