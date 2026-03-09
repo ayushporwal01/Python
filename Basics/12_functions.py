@@ -8,4 +8,4 @@ def letterGenerator(name, date):
     print(st)
 
 greetHello("Ayush") 
-letterGenerator("Ayush", )
+letterGenerator("Ayush", "27th December")
