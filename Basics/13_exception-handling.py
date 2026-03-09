@@ -11,5 +11,6 @@ except Exception as e:
     print("some error occured: ", e)
 else:
     print("no error occurred")
-finally:
+finally: 
     print("always runs")   
+   
