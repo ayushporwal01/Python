@@ -4,6 +4,13 @@
 #else - runs if no error occurs
 #finally - runs whether error occurs or not
 
+#Common Python Exceptions
+#ZeroDivisionError – dividing by zero
+#ValueError – invalid value
+#TypeError – wrong data type
+#IndexError – list index out of range
+#FileNotFoundError – file not found
+
 try:
     a = int(input("Enter a number: "))
     print(a + 3)
