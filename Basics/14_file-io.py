@@ -1,6 +1,6 @@
 s = "Ayush is a gamer"
 
-#Writing a file
+#Writing to a file
 
 # with open("ayush.txt", "w") as f:
 #     f.write(s)
@@ -9,7 +9,7 @@ s = "Ayush is a gamer"
 # fp.write(s)
 # fp.close()
 
-#Reading a file
+#Reading to a file
 
 with open("ayush.txt", "r") as f:
     s = f.read()
