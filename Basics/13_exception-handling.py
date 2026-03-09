@@ -2,7 +2,7 @@
 #try - code that may cause error
 #except - runs if error occurs
 #else - runs if no error occurs
-#finally - runs either error occurs or not
+#finally - runs whether error occurs or not
 
 try:
     a = int(input("Enter a number: "))
