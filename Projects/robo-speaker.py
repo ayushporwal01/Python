@@ -1,8 +1,11 @@
-import subprocess
+import pyttsx3
 
-print("Welcome To RoboSpeaker!")
+# Initialize the engine
+engine = pyttsx3.init()
 
-x = input("Enter what you want me to speak: ")
+# Text to speak
+text = input("Enter what you want me speak: ")
 
-command = ["say", x]
-subprocess.run(command)
+# Speak the text
+engine.say(text)
+engine.runAndWait()
