@@ -17,5 +17,6 @@ s = "Ayush is a gamer"
 #     print(s)
 
 f = open("ayush.txt", "r")
-f.read(s)
+s = f.read()
+print(s)
 f.close()
