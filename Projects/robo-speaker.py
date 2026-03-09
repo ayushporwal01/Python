@@ -1,8 +1,5 @@
 import pyttsx3
 
-# Initialize the engine
-engine = pyttsx3.init()
-
 #welcome
 print("Welcome To RoboSpeaker!")
 
@@ -13,7 +10,6 @@ while True:
         print("Goodbye!")
         break
     
-    # Speak the text
-    engine.stop()
+    engine = pyttsx3.init()
     engine.say(text)
     engine.runAndWait()
