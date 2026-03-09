@@ -1,4 +1,7 @@
 import cv2
 
-image = cv2.imread("cat.jpg")
-cv2.imshow(image)
+#load image
+img = cv2.imread("cat.jpg")
+
+#show image
+cv2.imshow("Image", img)
