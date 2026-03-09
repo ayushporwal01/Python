@@ -7,6 +7,5 @@ def letterGenerator(name, date):
     st = f"Hi, this is {name} and i would like to invite you to my birthday on {date}."
     print(st)
 
-
 greetHello("Ayush") 
 letterGenerator("Ayush", )
