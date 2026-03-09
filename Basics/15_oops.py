@@ -2,6 +2,7 @@
 #It's a  programming style where we organize code using objects and classes instead of just functions and variables.
 #A class is a blueprint or template for creating objects.
 #An object is an instance of a class.
+#Constructor is a special method that runs automatically when an object is created.
 
 class Employee:
     def __init__(self, name, salary):
