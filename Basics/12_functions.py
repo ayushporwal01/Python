@@ -13,4 +13,4 @@ def average(a, b):
 
 greetHello("Ayush") 
 letterGenerator("Ayush", "December 27, 2026")
-print(average(56, 69))  #62.5
+print(average(56, 69)) 
