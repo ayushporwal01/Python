@@ -4,7 +4,9 @@
 #An object is an instance of a class.
 
 class Employee:
-    
+    def __init__(self, name, salary):
+        self.
+
     def getSalary(self):
         return self.salary
     
