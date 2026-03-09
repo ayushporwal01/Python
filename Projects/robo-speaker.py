@@ -14,5 +14,6 @@ while True:
         break
     
     # Speak the text
+    engine.stop()
     engine.say(text)
     engine.runAndWait()
