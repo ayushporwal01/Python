@@ -11,6 +11,7 @@ while True:
     
     if text == "q":
         break
+    
     # Speak the text
     engine.say(text)
     engine.runAndWait()
