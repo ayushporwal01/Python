@@ -13,4 +13,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 # Save resized image
-cv2.imwrite("resized.jpg", resized)
+cv2.imwrite("resized-cat.jpg", resized)
