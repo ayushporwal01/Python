@@ -8,8 +8,8 @@ s = "Ayush is a gamer"
 # fp = open("ayush.txt", "w")
 # fp.write(s)
 # fp.close()
-
-
+#
+#
 #Reading to a file
 
 # with open("ayush.txt", "r") as f:
