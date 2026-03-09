@@ -5,6 +5,7 @@
 
 class Employee:
     salary = 89
+    name = "Ayush"
     def getSalary(self):
         return self.salary
     
