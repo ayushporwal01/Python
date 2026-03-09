@@ -1,1 +1,2 @@
 #OOPS stands for Object Oriented Programming System.
+#It's a  programming style where we organize code using objects and classes instead of just functions and variables.
