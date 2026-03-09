@@ -9,3 +9,5 @@ resized = cv2.resize(img, (420, 300))
 #Show resized image
 cv2.imshow("Resized Image", resized)
 
+cv2.waitKey(0)
+cv2.destroyAllWindows()
