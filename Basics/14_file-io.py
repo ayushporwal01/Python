@@ -17,6 +17,6 @@ with open("ayush.txt", "r") as f:
     print(s)
     
 
-# fp = open("ayush.txt", "w")
-# fp.write(s)
-# fp.close()
+# f = open("ayush.txt", "r")
+# f.read(s)
+# f.close()
