@@ -15,7 +15,6 @@ s = "Ayush is a gamer"
 with open("ayush.txt", "r") as f:
     s = f.read()
     print(s)
-    
 
 # f = open("ayush.txt", "r")
 # f.read(s)
