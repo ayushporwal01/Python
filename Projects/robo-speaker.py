@@ -6,7 +6,7 @@ while True:
     text = input("Enter what you want me speak: ")
 
     if text == "q":
-        print("Goodbye!")
+        print("Thank You for using RoboSpeaker!")
         break
 
     speak(text)
