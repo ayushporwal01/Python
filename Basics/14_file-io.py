@@ -24,9 +24,8 @@ s = "Ayush is a gamer"
 #
 #Appending to a file
 
-# with open("ayush.txt", "a") as f:
-#     s = f.append()
-#     print(s)
+with open("ayush.txt", "a") as f:
+    f.write("")
 
 # f = open("ayush.txt", "a")
 # s = f.append()
