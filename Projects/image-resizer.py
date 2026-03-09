@@ -5,3 +5,7 @@ img = cv2.imread("cat.jpg")
 
 #Resize image
 resized = cv2.resize(img, (420, 300))
+
+#Show resized image
+cv2.imshow("Resized Image", resized)
+
