@@ -12,4 +12,4 @@ except Exception as e:
 else:
     print("no error occurred")
 finally:
-    print("always runs")   
+    print("finally runs")   
