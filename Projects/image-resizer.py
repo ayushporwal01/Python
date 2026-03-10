@@ -1,7 +1,7 @@
 import cv2
 
 #Read image
-img = cv2.imread("./Images/cat.jpg")
+img = cv2.imread("./Assets/cat.jpg")
 
 #Resize image
 resized = cv2.resize(img, (420, 300))
