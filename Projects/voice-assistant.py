@@ -1,26 +1,41 @@
 import speech_recognition as sr
+import sounddevice as sd
+import numpy as np
 import subprocess
 
 recognizer = sr.Recognizer()
+fs = 44100  # sample rate
+duration = 5  # recording duration in seconds
 
-# Use SoundDevice instead of PyAudio
-with sr.Microphone() as source:
+while True:
     print("Say the app name...")
-    recognizer.adjust_for_ambient_noise(source)  # optional, helps with background noise
-    audio = recognizer.listen(source)
+    # Record audio using sounddevice
+    audio_data = sd.rec(int(duration * fs), samplerate=fs, channels=1, dtype='int16')
+    sd.wait()  # Wait until recording is finished
 
-try:
-    command = recognizer.recognize_google(audio).lower()
-    print("You said:", command)
+    # Convert numpy array to AudioData for speech_recognition
+    audio_bytes = sr.AudioData(audio_data.tobytes(), fs, 2)  # 2 bytes per sample
 
-    if "chrome" in command:
-        subprocess.Popen(["C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"])
-    elif "notepad" in command:
-        subprocess.Popen(["notepad.exe"])
-    elif "calculator" in command:
-        subprocess.Popen(["calc.exe"])
-    else:
-        print("App not recognized")
+    try:
+        command = recognizer.recognize_google(audio_bytes).lower()
+        print("You said:", command)
 
-except Exception as e:
-    print("Error:", e)
+        if "chrome" in command:
+            subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe"])
+            break
+        elif "notepad" in command:
+            subprocess.Popen(["notepad"])
+            break
+        elif "calculator" in command:
+            subprocess.Popen(["calc"])
+            break
+        elif "youtube" in command:
+            subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe", "https://youtube.com"])
+            break
+        else:
+            print("App not recognized. Try again.")
+
+    except sr.UnknownValueError:
+        print("Could not understand. Try again.")
+    except sr.RequestError:
+        print("Recognition service unavailable. Check your internet.")
