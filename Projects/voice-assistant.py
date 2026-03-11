@@ -10,18 +10,22 @@ recognizer = sr.Recognizer()
 fs = 44100  # sample rate
 duration = 5  # recording duration in seconds
 
-# Map app names to their launch paths or commands
 apps = {
     "chrome": r"C:\Program Files\Google\Chrome\Application\chrome.exe",
     "notepad": "notepad",
     "calculator": "calc"
 }
 
-# Map app names to process names for closing
 process_names = {
     "chrome": "chrome.exe",
     "notepad": "notepad.exe",
     "calculator": "Calculator.exe"
+}
+
+websites = {
+    "youtube": "https://youtube.com",
+    "gmail": "https://mail.google.com",
+    "listenfree": "https://listenfree.in"
 }
 
 while True:
@@ -30,37 +34,44 @@ while True:
     # Record audio
     audio_data = sd.rec(int(duration * fs), samplerate=fs, channels=1, dtype='int16')
     sd.wait()
-
-    # Convert to AudioData
     audio_bytes = sr.AudioData(audio_data.tobytes(), fs, 2)
 
     try:
         command = recognizer.recognize_google(audio_bytes).lower()
         print("You said:", command)
 
-        # OPEN apps
-        for app in apps:
-            if f"open {app}" in command:
-                subprocess.Popen([apps[app]])
-                print(f"{app} opened.")
-                break
+        handled = False  # flag to prevent multiple actions
 
-        # CLOSE apps
-        for app in process_names:
+        # CLOSE apps first
+        for app, proc_name in process_names.items():
             if f"close {app}" in command:
                 for proc in psutil.process_iter(['pid', 'name']):
-                    if proc.info['name'] == process_names[app]:
+                    if proc.info['name'] == proc_name:
                         os.kill(proc.info['pid'], signal.SIGTERM)
                         print(f"{app} closed.")
-                break
+                        handled = True
+                break  # prevent multiple matches
+
+        # OPEN apps
+        if not handled:
+            for app, path in apps.items():
+                if f"open {app}" in command:
+                    subprocess.Popen([path])
+                    print(f"{app} opened.")
+                    handled = True
+                    break
 
         # OPEN websites
-        if "youtube" in command:
-            subprocess.Popen([apps["chrome"], "https://youtube.com"])
-        elif "gmail" in command:
-            subprocess.Popen([apps["chrome"], "https://mail.google.com"])
-        elif "listenfree" in command:
-            subprocess.Popen([apps["chrome"], "https://listenfree.in"])
+        if not handled:
+            for site, url in websites.items():
+                if site in command:
+                    subprocess.Popen([apps["chrome"], url])
+                    print(f"{site} opened.")
+                    handled = True
+                    break
+
+        if not handled:
+            print("Command not recognized. Try again.")
 
     except sr.UnknownValueError:
         print("Could not understand. Try again.")
