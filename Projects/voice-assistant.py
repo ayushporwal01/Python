@@ -12,11 +12,11 @@ try:
     print("You said: ", command) 
 
     if "open chrome" in command:
-        subprocess.Popen(["rC:\Program Files\Google\Chrome\Application\chrome.exe"])
+        subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe"])
     elif "open notepad" in command:
         subprocess.Popen(["notepad.exe"])
     elif "open gmail" in command:
-        subprocess.Popen(["rC:\Program Files\Google\Chrome\Application\chrome.exe" , "https://mail.google.com"])
+        subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe" , "https://mail.google.com"])
     elif "open file-explorer" in command:
         subprocess.Popen(["explorer.exe"])
     else:
