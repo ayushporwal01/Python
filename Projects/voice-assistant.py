@@ -4,8 +4,9 @@ import subprocess
 recognizer = sr.Recognizer()
 
 with sr.Microphone as source:
-    print("Say the app name: ")
+    print("Say the app name...")
     audio = recognizer.listen(source)
 
 try:
-    
+    command = recognizer.recognize_google(audio).lower()
+    print(You said:)
