@@ -32,6 +32,9 @@ while True:
         elif "youtube" in command:
             subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe", "https://youtube.com"])
             break
+        elif "gmail" in command:
+            subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe", "https://mail.google.com"])
+            break
         else:
             print("App not recognized. Try again.")
 
