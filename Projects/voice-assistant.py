@@ -36,7 +36,7 @@ while True:
             subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe", "https://mail.google.com"])
             break
         elif "listenfree" in command:
-            subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe", "https://listenfree.in""])
+            subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe", "https://listenfree.in"])
             break
         else:
             print("App not recognized. Try again.")
