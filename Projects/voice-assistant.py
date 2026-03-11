@@ -11,13 +11,13 @@ try:
     command = recognizer.recognize_google(audio).lower()
     print("You said: ", command) 
 
-    if "open chrome" in command:
+    if "chrome" in command:
         subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe"])
-    elif "open notepad" in command:
+    elif "notepad" in command:
         subprocess.Popen(["notepad.exe"])
-    elif "open gmail" in command:
+    elif "gmail" in command:
         subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe" , "https://mail.google.com"])
-    elif "open file-explorer" in command:
+    elif "file-explorer" in command:
         subprocess.Popen(["explorer.exe"])
     else:
         print("Can't open this app")
