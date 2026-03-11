@@ -4,7 +4,7 @@ import subprocess
 recognizer = sr.Recognizer()
 
 # Use SoundDevice instead of PyAudio
-with sr.SoundDeviceMicrophone() as source:
+with sr.Microphone() as source:
     print("Say the app name...")
     recognizer.adjust_for_ambient_noise(source)  # optional, helps with background noise
     audio = recognizer.listen(source)
